@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    /* width: 80vw; */
+    /* margin: 0 auto; */
+    background-color: #55b6aa;
+}
+
+.header > div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logoimg {
+    width: 170px;
+    padding: 0px;
+    margin: -5px 0px 0 -7px;
+}
+
+.headingtag {
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.blacktag {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.whitetag {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.container {
+    width: 80vw;
+    margin: 10px auto;
+}
+
+.container > input[type='button'] {
+    font-size: 24px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    border: 1px solid dimgray;
+    background: linear-gradient(0deg, #575757, #fcfcfc);
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.containerin {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.containerin > div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+
+.containerin > div p input[type='file'] {
+    margin: 10px auto 10px 0;
+}
+
+.containerin > div p {
+    margin: 0;
+}
+
+.canvas {
+    border: 1px solid dimgrey;
+    background-color: #efefef;
+    border-radius: 5px;
+    /* width: 450px; */
+    padding: 5px;
+    cursor: pointer;
+}
+
+.imageWH {
+    width: 600px;
+}
+

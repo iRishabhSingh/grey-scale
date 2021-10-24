@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imgSAGA©.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+    <title>Image B & W</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="logo" id="logo">
+            <img src="./imgSAGA©.png" alt="imgSAGA Logo" class="logoimg">
+        </div>
+    </header>
+
+    <div class="headingtag">
+        <h1>
+            <span class="blacktag">Black</span>&<span class="whitetag">White</span>
+        </h1>
+    </div>
+
+    <div class="container" id="container">
+
+        <div class="containerin">
+            <div class="foreground" id="foreground">
+                <canvas class="canvas" id="fgimg">
+
+                </canvas>
+                <p>
+                    File name: 
+                    <input type="file" multiple="false" accept="image/*" id="fgimgbtn" class="fgimgbutton" value="upload fg Image" onclick="upload()">
+                </p>
+            </div>
+
+            <div class="backgound" id="backgound">
+                <canvas class="canvas" id="bgimg">
+                    
+                </canvas>
+                <!-- <input type="file" multiple="false" accept="image/*" name="upload bg Image" id="bgimgbtn" class="bgimgbtn"
+                    onclick="upload()"> -->
+            </div>
+        </div>
+
+        <input type="button" id="greyscale" value="Gray Scale Image" onclick="greyscale()">
+    </div>
+</body>
+
+</html>
